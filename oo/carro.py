@@ -1,3 +1,6 @@
+
+
+
 """
 criar uma classe que vai possuir dois atributos composto por outras duas classes:
 
@@ -94,3 +97,8 @@ O       L
 
 
 """
+class Motor:
+    def __init__(self):
+        self.velocidade = 0
+
+    pass
