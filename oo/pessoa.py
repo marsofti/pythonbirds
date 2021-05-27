@@ -1,4 +1,5 @@
 class Pessoa:
+    olhos = 2
     #metodo funcao pertence a classe
     def __init__(self, *filhos, nome = None, idade=35):
         self.idade = idade
@@ -19,8 +20,16 @@ if __name__ == '__main__':
         print(filho.nome)
     luciano.sobrenome = 'Ramalho'
     del luciano.filhos
+    luciano.olhos = 1
+    del luciano.olhos
     print(luciano.__dict__)
     print(marcelo.__dict__)
+    print(Pessoa.olhos)
+    Pessoa.olhos = 3
+    print(luciano.olhos)
+    print(marcelo.olhos)
+    print(id(Pessoa.olhos), id(luciano.olhos), id(marcelo.olhos))
+
 
 
 
