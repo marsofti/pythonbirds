@@ -1,6 +1,3 @@
-
-
-
 """
 criar uma classe que vai possuir dois atributos composto por outras duas classes:
 
@@ -62,7 +59,7 @@ O       L
     >>> direcao.girar_a_esquerda()
     >>> direcao.valor
     'Oeste'
-     >>> direcao.girar_a_esquerda()
+    >>> direcao.girar_a_esquerda()
     >>> direcao.valor
     'Sul'
     >>> direcao.girar_a_esquerda()
@@ -77,7 +74,7 @@ O       L
     >>> carro.acelerar()
     >>> carro.calcular_velocidade()
     1
-     >>> carro.acelerar()
+    >>> carro.acelerar()
     >>> carro.calcular_velocidade()
     2
      >>> carro.frear()
@@ -91,7 +88,7 @@ O       L
     >>> carro.girar_a_esquerda()
     >>> carro.calcular_direcao()
     >>> 'Norte'
-     >>> carro.girar_a_esquerda()
+    >>> carro.girar_a_esquerda()
     >>> carro.calcular_direcao()
     >>> 'Oeste'
 
@@ -101,6 +98,7 @@ NORTE = 'Norte'
 SUL = 'Sul'
 LESTE = 'Leste'
 OESTE = 'Oeste'
+
 
 class Direcao:
     rotacao_a_direita_dct = {
